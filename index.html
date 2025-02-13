@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <script src="jquery-3.4.1.min.js"></script>
+  <title>Hello, My Baby!</title>
+  <link rel="icon" href="HappyValentines/heart.png" type="image/png">
+</head>
+<body>
+
+  <div class="container">  
+    <div class="valentines">
+      <div class="envelope"></div>
+      <div class="front"></div>
+      <div class="card">
+        <div class="text">I </br>Love </br>You!</div>
+        <div class="heart"></div>
+      </div>
+      <div class="hearts">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+      </div>
+    </div>
+    <div class="shadow"></div>
+
+    <button class="primaryButton" onclick="openModal()">Click Meeee</button>
+  </div>
+
+  <!-- Additional buttons -->
+  <div class="buttons-container">
+  <button class="corner-button top-left-button1" onclick="openModal2()">Open me when you're sad</button>
+  <button class="corner-button top-right-button1" onclick="openModal3()">Open me when you're happy</button>
+  <button class="corner-button bottom-left-button1" onclick="openModal4()">Open me when you're anxious</button>
+  <button class="corner-button bottom-right-button1" onclick="openModal5()">Open me when you're afraid</button>
+  <button class="corner-button top-left-button2" onclick="openModal6()">Open me when you're upset or angry</button>
+  <button class="corner-button top-right-button2" onclick="openModal7()">Open me when you can't fall asleep</button>
+  
+</div>
+
+  <!-- Modals -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <p></p>
+    </div>
+  </div>
+
+  
+</body>
+</html>
