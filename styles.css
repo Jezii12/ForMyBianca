@@ -333,11 +333,21 @@ body {
   background-color: #0056b3;
 }
 
-.flower-container {
+<div class="flower-container">
+  <div class="stem"></div>
+  <div class="leaf"></div>
+  <div class="petal petal1"></div>
+  <div class="petal petal2"></div>
+  <div class="petal petal3"></div>
+  <div class="petal petal4"></div>
+  <div class="center"></div>
+</div>
+
+<style>
+  .flower-container {
     position: absolute;
-    bottom: 50px;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 20px;
+    right: 20px;
   }
 
   .stem {
